@@ -1,4 +1,4 @@
-package com.minsoo.reservation.shop.model;
+package com.minsoo.reservation.user.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.validation.constraints.NotBlank;

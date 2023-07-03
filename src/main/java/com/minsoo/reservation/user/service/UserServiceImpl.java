@@ -5,7 +5,7 @@ import com.minsoo.reservation.common.exception.UserNotFoundException;
 import com.minsoo.reservation.common.model.ServiceResult;
 import com.minsoo.reservation.shop.domain.Reservation;
 import com.minsoo.reservation.shop.domain.Shop;
-import com.minsoo.reservation.shop.model.ReservationInput;
+import com.minsoo.reservation.user.model.ReservationInput;
 import com.minsoo.reservation.shop.repository.ReservationRepository;
 import com.minsoo.reservation.shop.repository.ShopRepository;
 import com.minsoo.reservation.shop.type.StatusType;
