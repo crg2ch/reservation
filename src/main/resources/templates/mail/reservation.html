@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>예약 요청</title>
+</head>
+<body>
+<p>예약번호: <span th:text="${RESERVATION_ID}"></span></p>
+<p>매장 이름: <span th:text="${SHOP_NAME}"></span></p>
+<p>사용자 이메일: <span th:text="${USER_EMAIL}"></span></p>
+<p>예약 시간: <span th:text="${RESERVATION_TIME}"></span></p>
+<a th:href="@{'http://localhost:8080/api/reservation/approve/' + ${RESERVATION_ID}}">승인</a>
+| <a th:href="@{'http://localhost:8080/api/reservation/reject/' + ${RESERVATION_ID}}">거절</a>
+</body>
+</html>
